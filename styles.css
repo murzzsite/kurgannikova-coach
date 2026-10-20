@@ -218,3 +218,24 @@ section{padding:84px 0}
   .fact b{font-size:30px}
   .idea__q{font-size:22px}
 }
+
+/* v2: правки по ТЗ */
+.hero__sub--2{margin-top:-8px;font-size:17px}
+.about__photo{max-width:380px}
+.about__photo img{aspect-ratio:auto;object-fit:initial}
+.checks--rich{gap:16px}
+.checks--rich li b{display:block;font-size:16px}
+.checks--rich li span{display:block;color:var(--muted);font-size:14.5px;margin-top:2px}
+.tariff__why{font-size:14px;color:var(--ink);margin-bottom:14px}
+.tariff__goal{font-size:14px;font-weight:600;color:var(--acc-d);margin:-8px 0 20px}
+.tariff--premium{background:var(--acc-d);border-color:var(--acc-d);color:#f1ece6}
+.tariff--premium h3,.tariff--premium .price{color:#fff}
+.tariff--premium .sub,.tariff--premium .then,.tariff--premium .price small{color:#c9cfdd}
+.tariff--premium .tariff__why{color:#e8e3dc}
+.tariff--premium .tariff__goal{color:var(--sand-l)}
+.tariff--premium li::before{border-color:var(--sand-l)}
+.tariff--premium .btn--primary{background:var(--sand-l);color:var(--acc-d)}
+.tariff--premium .btn--primary:hover{background:#fff}
+.tariff__badge--dark{background:var(--sand-l);color:var(--acc-d)}
+.tariff--main .price small:first-child{margin-right:0}
+@media (max-width:900px){.about__photo{max-width:320px}}
